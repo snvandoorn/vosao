@@ -21,7 +21,7 @@
   <macrodef name="dev_appserver" description="Runs the App Engine Development App Server">
     <attribute name="war" description="The exploded war directory containing the application"/>
     <attribute name="port" default="8080" description="The port the server starts on"/>
-    <attribute name="address" default="localhost" description="The interface the server binds to"/>
+    <attribute name="address" default="0.0.0.0" description="The interface the server binds to"/>
     <element name="options" optional="true" description="Additional options for dev_appserver"/>
     <element name="args" optional="true" description="Additional arguments for the java task"/>
 

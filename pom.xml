@@ -106,12 +106,19 @@
             <plugin>
                 <artifactId>maven-javadoc-plugin</artifactId>
             </plugin>
+	    <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-surefire-plugin</artifactId>
+		<configuration>
+			<argLine>-Xmx4g</argLine>
+		</configuration>
+	    </plugin>
         </plugins>
     </reporting>
     
     <properties>
       <gae.application.id>vosaocms</gae.application.id>
-      <gae.application.version>vosaocms-0-9</gae.application.version>
+      <gae.application.version>vosaocms-0.9</gae.application.version>
       <vosao.version>0.9</vosao.version>
       <vosao.version.full>0.9.14</vosao.version.full>
       <vosao.admin.username>admin</vosao.admin.username>
