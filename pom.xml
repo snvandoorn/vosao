@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vosao</groupId>
     <artifactId>vosaocms</artifactId>
-    <version>0.9</version>
+    <version>0.10</version>
     <packaging>pom</packaging>   
     <name>Vosao CMS</name>
     <url>http://www.vosao.org</url>
@@ -53,10 +53,12 @@
     </pluginRepositories>
     
     <repositories>
+	    <!--
         <repository>
             <id>vosao-maven-repo</id>
             <url>http://vosao.googlecode.com/svn/repository</url>
         </repository>
+	-->
         <repository>
             <id>mvnsearch</id>
             <url>http://www.mvnsearch.org/maven2</url>
@@ -118,9 +120,9 @@
     
     <properties>
       <gae.application.id>vosaocms</gae.application.id>
-      <gae.application.version>vosaocms-0.9</gae.application.version>
-      <vosao.version>0.9</vosao.version>
-      <vosao.version.full>0.9.14</vosao.version.full>
+      <gae.application.version>vosaocms-0.10</gae.application.version>
+      <vosao.version>0.10</vosao.version>
+      <vosao.version.full>0.10.1</vosao.version.full>
       <vosao.admin.username>admin</vosao.admin.username>
       <vosao.admin.email>admin@test.com</vosao.admin.email>
       <vosao.admin.password>admin</vosao.admin.password>
