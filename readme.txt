@@ -1,4 +1,5 @@
-                        This is the new testfeature feature 
+                        This is the second feature.
+			This is the new testfeature feature 
 			--------------------------------
                                     Vosao CMS. 
                          Simple CMS for Google App Engine
