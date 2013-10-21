@@ -32,7 +32,7 @@ public class HeadBeginPageFilter extends AbstractPageFilter
 
 	public HeadBeginPageFilter(Business business) {
 		super(business);
-		getFragments().add(new JavaScriptFragment());
+		//getFragments().add(new JavaScriptFragment());
 		getFragments().add(new PluginHeadFragment());
 	}
 	
